@@ -1,5 +1,7 @@
 FROM openwrtorg/rootfs:19.07.3
 
+SHELL ["/bin/ash"]
+
 RUN mkdir /var/lock && \
     opkg update && \
     opkg list-upgradable | cut -f 1 -d ' ' | xargs opkg upgrade && \

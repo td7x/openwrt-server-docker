@@ -1,3 +1,3 @@
-#/bin/sh
+!#/bin/sh
 
-kill "$(pgrep ip)" || true
+true

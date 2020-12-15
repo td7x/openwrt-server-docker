@@ -6,8 +6,6 @@ build:
 dev: build
 	docker run --rm -it --name ow-dev td7x/openwrt /bin/ash
 
-
-
 # login:
 # 	@docker login
 
